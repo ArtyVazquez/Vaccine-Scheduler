@@ -1,0 +1,4 @@
+Install mampp
+Search for mampp folder 
+Place VaccineScheduler folder into htdocs
+In a browser search http://localhost/VaccineScheduler/index.php

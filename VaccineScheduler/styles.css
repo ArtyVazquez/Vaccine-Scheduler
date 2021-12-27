@@ -1,0 +1,189 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  color: #1e1e1e;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+footer {
+  background-color: whitesmoke;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 0.5rem;
+  text-align: center;
+  flex-direction: column;
+}
+
+h1 {
+    font-size: 10rem;
+    text-shadow: 0.3rem 0.3rem orange;
+}
+@media (max-width: 1199.98px) {
+  h1 {
+    font-size: 5rem;
+    text-shadow: 0.3rem 0.3rem orange;
+  }
+}
+
+a {
+  color: orange;
+  font-size: 23x;
+}
+
+h3{
+  color: orange;
+}
+
+div {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+button {
+  width: 300px;
+  height: 80px;
+  margin: auto;
+  color: whitesmoke;
+  padding: 0 3px;
+  border-radius: 5px;
+  border: 1px  whitesmoke;
+  display: block;
+  background-color: rgb(255,165,0);
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button:hover {
+  background-color: rgb(255,165,120)
+}
+
+form {
+  padding-top: 1rem;
+}
+
+.largerInput {
+  border-radius: 5px;
+  border: 1px whitesmoke;
+  padding: 0 3px;
+  display: block;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 465px;
+  height: 50px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.choose {
+  border-radius: 5px;
+  border: 1px whitesmoke;
+  padding: 0 3px;
+  display: block;
+  text-decoration: none;
+  background: white;
+  font-size: 19px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 465px;
+  height: 50px;
+  margin: 30px auto;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+.largerInputText {
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  padding: 0 20px;
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 465px;
+  height: 50px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+
+.pF {
+  position: relative;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+}
+
+.regHome {
+  position: relative;
+  text-align: center;
+}
+
+.formRegRow {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+.formRegCol {
+  display: table-cell;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 30%;
+  font-size: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: whitesmoke;
+  color: orange;
+}
+tr:nth-child(even) {
+  color:#1e1e1e;
+  background-color: whitesmoke;
+}
+tr:nth-child(odd) {
+  color: whitesmoke;
+  background-color: orange;
+}
+
+.tableTimes {
+  padding-bottom: auto;
+  padding-top: auto;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.login {
+  position: relative;
+  margin-top: 140px;
+}
