@@ -1,4 +1,4 @@
 Install mampp
 Search for mampp folder 
-Place CS480Project folder into htdocs
-In a browser search http://localhost/CS480Project/index.php
+Place VaccineScheduler folder into htdocs
+In a browser search http://localhost/VaccineScheduler/
